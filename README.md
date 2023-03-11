@@ -1,3 +1,3 @@
 # kevintraywick.github.io
-All me all the time
-More or less
+All me all the time,
+More or less.
