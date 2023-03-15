@@ -1,6 +1,35 @@
-
-
-h1 {
-        color: blue;
+/* Style for the gallery grid */
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
 }
 
+/* Style for the gallery images */
+.gallery img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Style for the title */
+h1 {
+	text-align: center;
+	color: rgb(249, 7, 148) !important;
+
+    font-family: 'Arial Black', sans-serif;
+    /* font-family: 'Publico Text', sans-serif; */
+}
+
+body {
+	background-image: url('../images/donut_stack.jpg');
+	background-size: cover;
+}
+
+body.info {
+	background-image: url('../images/halfpig.jpg');
+	/* background-size: cover; */
+    background-position: center 15%; /* This will position the background image at the top center */
+    background-repeat: no-repeat; /* This will ensure the image does not repeat */
+
+}
+  
